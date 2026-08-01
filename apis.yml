@@ -1,8 +1,25 @@
 aid: regencyhealthcare
-name: Regencyhealthcare
-description: 'Regencyhealthcare is a company surfaced as a portfolio company of norwest-venture-partners
-  and added to the API Evangelist network as a stub for enrichment. Sector: unknown. This profile is a
-  lead awaiting the enrichment pipeline.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/regencyhealthcare.png
+name: Regency Healthcare
+description: 'Regency Healthcare is a multi-specialty tertiary and super-speciality
+  hospital network in northern India, operating five centres across Kanpur, Lucknow
+  and Gorakhpur with 240+ doctors and physicians covering 20+ medical specialties
+  including cardiology, oncology (cancer care), nephrology, orthopedics and gastroenterology.
+  Patient-facing services include appointment booking, emergency and ambulance care,
+  diagnostic imaging (PET-CT), and an online lab-report portal. Surfaced as a portfolio
+  lead of norwest-venture-partners and added to the API Evangelist network; the enrichment
+  pipeline found no public developer/API surface for this provider.'
 url: https://raw.githubusercontent.com/api-evangelist/regencyhealthcare/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +29,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
-- Unknown
+- Healthcare
+- Hospitals
+- Medical
+- Health
+- India
+- Patient Care
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +45,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/regencyhealthcare-domain-security.yml
 - type: Website
   url: https://regencyhealthcare.in
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
